@@ -1,0 +1,62 @@
+package dr.utilities;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+public class Driver {
+    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
+    private Driver() {
+    }
+
+    static WebDriver driver;
+
+    public static WebDriver getDriver(){
+        if(driver==null){
+            switch (ConfigReader.getProperty("browser")) {
+                case "chrome" :
+                    driver = new ChromeDriver();
+                    break;
+
+                case "edge" :
+                    driver= new EdgeDriver();
+                    break;
+
+                case "safari" :
+                    driver= new SafariDriver();
+                    break;
+
+                case "firefox" :
+                    driver= new FirefoxDriver();
+                    break;
+
+                default:
+                    driver=new ChromeDriver();
+
+            }
+            //driver.manage().window().maximize();
+            //  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+           // Map<String, String> mobileEmulation = new HashMap<>();
+          //  mobileEmulation.put("deviceName", "iPhone X");
+
+           // ChromeOptions chromeOptions = new ChromeOptions();
+           // chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+        }
+        return driver;
+    }
+
+      public static void closeDriver(){
+        if(driver!=null){
+            driver.close();
+            driver=null;
+        }
+    }
+
+
+
+
+
+
+}
