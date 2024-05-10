@@ -7,10 +7,11 @@ Feature: dr Showcase Test
 
     When  Scroll Down to Showcase Products
     And   Clicks Show All button
-    And   Assert that if Tuncmatic Economy 600 is visible
-    And   Writes valid Surname in Surnamebox
-    And   writes email address in mailbox
-    And   writes password
-    And   Clicks membership agreement Checkbox
-    And   Clicks clarification checkbox
-    And   Clicks Register button
+    Then  Assert that "658" pruducts listed
+    And   Clicks out of stock
+    Then  Asserts that "845" pruducts listed
+    When  Clicks Most Commented products
+    And   Clicks Dogan Cuceloglu's Book Var Misin
+    And   Clicks stars icon
+    Then  Asserts there are "154" comments
+    And   Asserts if Cok guzel kitap rahat akici kesinlikle okuyun

@@ -27,6 +27,12 @@ public class HomePage {
  @FindBy(xpath = "//div[@class='mobile-menu-opened']")
  public WebElement menu;
 
+ @FindBy(xpath = "//div[@class='dr-tab-header-buttons d-flex']")
+ public WebElement headerButtons;
+
+ @FindBy(xpath = "//div[@class='section-cover-button d-lg-block']")
+ public WebElement showAll;
+
 
 
 

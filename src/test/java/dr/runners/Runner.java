@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"dr/stepDefinitions", "dr/hooks"},
-        tags = "@Registration",
+        tags = "@showCaseProduct",
         dryRun = false
 
 )

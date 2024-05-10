@@ -48,13 +48,7 @@ public class ReusableMethods {
         Driver.getDriver().switchTo().alert().sendKeys(text);
     }
 
-    //DropDown VisibleText
- /*
- Select select2 = new Select(gun);
- select2.selectByVisibleText("7");
 
- //ddmVisibleText(gun,"7"); --> Yukarıdaki kullanım yerine sadece method ile handle edebilirim
- */
     public static void ddmVisibleText(WebElement ddm, String secenek) {
         Select select = new Select(ddm);
         select.selectByVisibleText(secenek);

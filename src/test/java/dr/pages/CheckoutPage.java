@@ -10,8 +10,18 @@ public class CheckoutPage {
 
         PageFactory.initElements(Driver.getDriver(),this);
     }
-    @FindBy(xpath = "(//div[@data-id='193732242'])[1]" )
+    @FindBy(xpath = "//div[@class='basketLeftFrame col-md-8 col-lg-9']" )
     public WebElement hpbook;
+
+    @FindBy(xpath = "//span[@class='number-plus']" )
+    public WebElement plusIcon;
+
+    @FindBy(xpath = "//input[@class='basketCounter']")
+    public WebElement qty;
+
+
+
+
 
 
 }

@@ -20,11 +20,14 @@ public class SearchResultsPage {
     @FindBy(xpath = "(//select[@class='facet__selectbox js-facet-arrangement']" )
     public WebElement bestSeller;
 
-    @FindBy(xpath = "(//button[@data-code='360852']" )
-    public WebElement addToChart;
+//    @FindBy(xpath = "(//button[@data-code='360852']" )
+//    public WebElement addToChart;
 
     @FindBy( xpath = "//a[@href='/sepetim']")
     public WebElement chartIcon;
+
+    @FindBy( xpath = "//select[@class='facet__selectbox js-facet-arrangement']")
+    public WebElement suggested;
 
 
 
