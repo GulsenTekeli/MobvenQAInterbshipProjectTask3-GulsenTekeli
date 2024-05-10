@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abc75cdc-a706-402d-8d02-4a0122f7995f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dr/pages/ShowCasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dr/stepDefinitions/ShowCaseProductComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dr/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dr/stepDefinitions/AddToFavStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddToFav.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dr/pages/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/pages/CheckoutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dr/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dr/pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/pages/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dr/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dr/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/pages/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dr/pages/ShowCasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/pages/ShowCasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dr/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dr/stepDefinitions/KitapAramaStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/stepDefinitions/KitapAramaStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dr/stepDefinitions/RegistrationStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/stepDefinitions/RegistrationStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dr/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dr/utilities/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/kitapArama.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/kitapArama.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/showcaseProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/showcaseProduct.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/kitapArama.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SearchBookandAddToChart.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

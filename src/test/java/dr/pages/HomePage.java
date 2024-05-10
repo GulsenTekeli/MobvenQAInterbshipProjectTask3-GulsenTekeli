@@ -33,6 +33,9 @@ public class HomePage {
  @FindBy(xpath = "//div[@class='section-cover-button d-lg-block']")
  public WebElement showAll;
 
+ @FindBy(xpath = "(//a[@href='/login'])[1]")
+ public WebElement signInicon;
+
 
 
 

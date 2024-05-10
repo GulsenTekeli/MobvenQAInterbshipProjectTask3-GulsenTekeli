@@ -14,4 +14,10 @@ public class MenuPage {
     @FindBy(xpath = "//div[@class='col-3']" )
     public WebElement registerButton;
 
+    @FindBy(xpath = "//li[@data-label='ELEKTRONİK']" )
+    public WebElement electronic;
+
+    @FindBy(xpath = "//li[@data-label='ELEKTRONİK']" )
+    public WebElement cellPhones;
+
 }

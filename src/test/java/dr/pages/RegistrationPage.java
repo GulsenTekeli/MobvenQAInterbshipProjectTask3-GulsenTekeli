@@ -23,6 +23,8 @@ public class RegistrationPage {
 
     @FindBy (id = "passwordNew")
     public WebElement passwordBox;
+    @FindBy (id = "password")
+    public WebElement password;
 
     @FindBy (xpath = "(//span[@class='check_v2'])[2]")
     public WebElement membershipCheckbox;
@@ -35,6 +37,8 @@ public class RegistrationPage {
 
     @FindBy (xpath = "//p[@class='email-verification__popup-text']]")
     public WebElement verificationText;
+
+
 
 
 
